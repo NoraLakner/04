@@ -1,0 +1,71 @@
+#initial-data-button.disabled {
+    background-color: #777874;
+    color: #ccd2cc;
+    cursor: not-allowed;
+}  
+    
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #aee3c5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #e8f0ec;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 465px; 
+    margin: 20px auto;
+} 
+
+#input-container {
+    margin-bottom: 20px;
+}
+
+#products-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 10px; 
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: calc(100% - 16px); 
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #0a745a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px; 
+}
+
+button:hover {
+    background-color: #0a745a;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center; 
+}
+
+#output-container {
+    display: none;
+    text-align: center;
+}

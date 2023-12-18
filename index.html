@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="termek.css">
+    <title>Termék-elemző</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Termék-elemző</h1>
+
+        <div id="input-container">
+            <h2>Termékek listája és áraik</h2>
+            <div id="products-container"></div>
+
+            <button id="initial-data-button" onclick="addInitialData()">Adatok hozzáadása</button>
+            <button onclick="selectRandomProduct()">Olcsó termék</button>
+            <button onclick="calculateStatistics()">Statisztikai adatok</button>
+        </div>
+
+        <div id="output-container">
+            <h2>EREDMÉNY</h2>
+            <p id="result"></p>
+        </div>
+    </div>
+
+    <script src="termek.js"></script>
+</body>
+</html>
